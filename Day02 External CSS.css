@@ -1,0 +1,58 @@
+.externalCss{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.fixed{
+  position: fixed;
+  top: 0px;
+}
+
+.relevant_absolute{
+  display: flex;
+  justify-content: center;
+}
+
+#relative{
+  position: relative;
+  top: 100px;
+}
+#absolute{
+  position: absolute;
+  top: 100px;
+}
+
+.flex{
+  display: flex;
+}
+
+.InLineBlock{
+  background-color: yellow;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.InLine{
+  background-color: green;
+  border: 1px solid black;
+  display: inline;
+}
+
+.border1{
+  border: 1px solid black;
+  width: 500px;
+  margin-left: 400px;
+}
+
+.border2{
+  display: flex;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+#border3{
+  border: 1px solid black;
+  padding: 20px;
+  margin-left: 10px;
+}
